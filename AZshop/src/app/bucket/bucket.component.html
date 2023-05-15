@@ -1,0 +1,15 @@
+<div class="body"[ngStyle] = "{'display': visible ? 'block' : 'none' }">
+    <div class="icon">
+        <i class="fa-solid fa-basket-shopping"></i>
+        <h1>Your basket:</h1>
+    </div>
+    <hr>
+    <app-item-bucket [products] = "products"></app-item-bucket>
+    <hr>
+    <div class="price">
+        <h2>Price:</h2>
+        <div class="value">
+            {{priceSum}}€
+        </div>
+    </div>
+</div>

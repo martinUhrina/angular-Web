@@ -1,0 +1,11 @@
+<div *ngFor="let product of products">
+    <div class="item" matTooltip="Tooltip text" title="{{product.description}}">
+        <img [src]="product.imageUrl" alt="{{ product.name }}">
+        
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.price }}€</p>
+        
+        <button onclick="addToBasket(product)">ADD TO CART</button>
+    </div>
+  </div>
+  

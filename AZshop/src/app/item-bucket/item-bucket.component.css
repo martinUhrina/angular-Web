@@ -1,0 +1,35 @@
+.item{
+    width: auto;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    padding: 3px;
+    font-size: 14px;
+    border: 2px solid #f1cd61;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+p{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+i{
+    text-align: right;
+    cursor: pointer;
+}
+.item:hover{
+    border: 5px solid #EDC651;
+    transition: .5s;
+}

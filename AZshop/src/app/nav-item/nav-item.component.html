@@ -1,0 +1,22 @@
+<div class="body-nav"[ngStyle]="{ 'display': visible ? 'block' : 'none' }">
+    <nav>
+        <ul>
+            <li (click)="onClick(3)"><a href="#">
+                <i class="fas fa-paw"></i>
+                <span class="nav-item">HOME</span>
+            </a></li>
+            <li (click)="onClick(1)"><a href="#">
+                <i class="fas fa-dog"></i>
+                <span class="nav-item">DOGS</span>
+            </a></li>
+            <li (click)="onClick(2)"><a href="#">
+                <i class="fas fa-cat"></i>
+                <span class="nav-item">CATS</span>
+            </a></li>
+            <li (click)="onClick(4)"><a href="#">
+                <i class="fas fa-otter"></i>
+                <span class="nav-item">OTHERS</span>
+            </a></li>
+        </ul>
+    </nav>
+</div>
